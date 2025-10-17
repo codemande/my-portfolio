@@ -7,7 +7,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <p>© {new Date().getFullYear()} Excellent — All Rights Reserved.</p>
+        <p>© {new Date().getFullYear()} JasontheUgoh — All Rights Reserved.</p>
 
         <div className="footer-icons">
           <a
