@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import { motion } from "framer-motion";
-import { Github, ExternalLink } from "lucide-react";
+import { ExternalLink } from "lucide-react";
+import { TbBrandGithub } from "react-icons/tb";
 import "./Projects.css";
 
 const projects = [
@@ -63,7 +64,7 @@ function Projects() {
               </div>
               <div className="project-links">
                 <a href={project.github} target="_blank" rel="noreferrer">
-                  <Github size={20} />
+                  <TbBrandGithub size={20} />
                 </a>
                 <a href={project.live} target="_blank" rel="noreferrer">
                   <ExternalLink size={20} />

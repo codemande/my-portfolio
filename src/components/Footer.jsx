@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import "./Footer.css";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
-import { BsTwitterX } from "react-icons/bs";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 function Footer() {
   return (
@@ -36,7 +36,7 @@ function Footer() {
             href="https://x.com/jasontheugoh"
             aria-label="X"
           >
-            <BsTwitterX />
+            <FaSquareXTwitter />
           </a>
         </div>
       </div>

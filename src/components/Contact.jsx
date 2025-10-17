@@ -2,7 +2,9 @@
 import { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "emailjs-com";
-import { Mail, Github, Linkedin, } from "lucide-react";
+import { Mail } from "lucide-react";
+import { TbBrandGithub } from "react-icons/tb";
+import { FiLinkedin } from "react-icons/fi";
 import { RiTwitterXLine } from "react-icons/ri";
 import "./Contact.css";
 
@@ -17,10 +19,10 @@ function Contact() {
 
     emailjs
       .sendForm(
-        "service_7i70qbd", // replace with your EmailJS service ID
-        "template_pt85wgk", // replace with your template ID
+        "service_7i70qbd", 
+        "template_pt85wgk", 
         formRef.current,
-        "KfM5YRwLFfrZ4Oxbw" // replace with your public key
+        "KfM5YRwLFfrZ4Oxbw" 
       )
       .then(
         () => {
@@ -68,6 +70,7 @@ function Contact() {
             placeholder="Your Message"
             rows="5"
             required
+            style={{resize: "none"}}
           ></textarea>
           <button type="submit" disabled={loading}>
             {loading ? "Sending..." : "Send Message"}
@@ -84,14 +87,14 @@ function Contact() {
             <Mail size={20} />
           </a>
           <a href="https://github.com/codemande" target="_blank" rel="noreferrer">
-            <Github size={20} />
+            <TbBrandGithub size={20} />
           </a>
           <a
             href="https://linkedin.com/in/jasontheugoh"
             target="_blank"
             rel="noreferrer"
           >
-            <Linkedin size={20} />
+            <FiLinkedin size={20} />
           </a>
           <a
             href="https://x.com/jasontheugoh"
