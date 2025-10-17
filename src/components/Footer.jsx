@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import "./Footer.css";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { BsTwitterX } from "react-icons/bs";
 
 function Footer() {
   return (
@@ -10,7 +11,7 @@ function Footer() {
 
         <div className="footer-icons">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/codemande"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
@@ -18,7 +19,7 @@ function Footer() {
             <FaGithub />
           </a>
           <a
-            href="https://linkedin.com/in/yourlinkedin"
+            href="https://linkedin.com/in/jasontheugoh"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
@@ -26,10 +27,16 @@ function Footer() {
             <FaLinkedin />
           </a>
           <a
-            href="mailto:youremail@example.com"
+            href="mailto:jasontheugoh@gmail.com"
             aria-label="Email"
           >
             <FaEnvelope />
+          </a>
+          <a
+            href="https://x.com/jasontheugoh"
+            aria-label="X"
+          >
+            <BsTwitterX />
           </a>
         </div>
       </div>

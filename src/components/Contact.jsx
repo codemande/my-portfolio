@@ -2,7 +2,8 @@
 import { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "emailjs-com";
-import { Mail, Github, Linkedin } from "lucide-react";
+import { Mail, Github, Linkedin, } from "lucide-react";
+import { RiTwitterXLine } from "react-icons/ri";
 import "./Contact.css";
 
 function Contact() {
@@ -76,21 +77,29 @@ function Contact() {
 
         <div className="contact-icons">
           <a
-            href="mailto:youremail@example.com"
+            href="mailto:jasontheugoh@gmail.com"
             target="_blank"
             rel="noreferrer"
           >
             <Mail size={20} />
           </a>
-          <a href="https://github.com/yourusername" target="_blank" rel="noreferrer">
+          <a href="https://github.com/codemande" target="_blank" rel="noreferrer">
             <Github size={20} />
           </a>
           <a
-            href="https://linkedin.com/in/yourprofile"
+            href="https://linkedin.com/in/jasontheugoh"
             target="_blank"
             rel="noreferrer"
           >
             <Linkedin size={20} />
+          </a>
+          <a
+            href="https://x.com/jasontheugoh"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {/* <Twitter size={20} color="#000" /> */}
+            <RiTwitterXLine size={20} />
           </a>
         </div>
       </motion.div>
