@@ -1,0 +1,95 @@
+.about-section {
+  padding: 70px 0;
+  background-color: #fafafa;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+  gap: 50px;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.about-text p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.about-text strong {
+  color: #000;
+}
+
+.skills {
+  margin-top: 25px;
+}
+
+.skills h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.skills li {
+  background-color: #f1f1f1;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.about-photo {
+  flex: 1;
+  text-align: center;
+}
+
+.about-photo img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 50%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  background-color: #ddd;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .about-content {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .about-photo img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .about-text h2 {
+    font-size: 1.7rem;
+  }
+}
