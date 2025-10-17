@@ -31,8 +31,8 @@ const projects = [
       "A personal portfolio built to showcase my design and development projects with smooth animations and responsive design.",
     tech: ["React", "CSS", "Framer Motion"],
     image: "/projectprofile.png",
-    github: "https://github.com/yourusername/portfolio",
-    live: "https://yourportfolio.vercel.app",
+    github: "https://github.com/codemande/my-portfolio.git",
+    live: "https://my-portfolio-six-phi-22.vercel.app/",
   },
 ];
 
