@@ -1,10 +1,7 @@
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
-import Header from "./components/Header";
-import "./components/Header.css";
-// import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar";
 import "./components/Navbar.css";
 import Hero from "./components/Hero";
 import "./components/Hero.css";
@@ -30,8 +27,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
-      {/* <Navbar /> */}
+      <Navbar />
       <main>
         <Hero data-aos="fade-up" />
         <About data-aos="fade-up" />

@@ -101,7 +101,6 @@ function Contact() {
             target="_blank"
             rel="noreferrer"
           >
-            {/* <Twitter size={20} color="#000" /> */}
             <RiTwitterXLine size={20} />
           </a>
         </div>

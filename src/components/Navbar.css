@@ -33,7 +33,7 @@
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 25px;
+  gap: 30px;
 }
 
 .nav-links li {
@@ -47,9 +47,51 @@
   color: #007b7f;
 }
 
+/* Mobile menu button (hidden on large screens) */
+.menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Mobile dropdown */
+.mobile-menu {
+  display: none;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  padding: 15px 20px;
+  flex-direction: column;
+  gap: 15px;
+  width: 180px;
+  z-index: 99;
+}
+
+.mobile-menu a {
+  color: #333;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.mobile-menu a:hover {
+  color: #007b7f;
+}
+
 /* Mobile Responsive */
 @media (max-width: 768px) {
   .nav-links {
     display: none;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .mobile-menu.open {
+    display: flex;
   }
 }
