@@ -9,8 +9,8 @@ const projects = [
     id: 1,
     title: "E-Commerce Store",
     description:
-      "An ongoing full-stack store built with React, Express, and PostgreSQL. Includes authentication, payments, user and admin dashboard.",
-    tech: ["React", "CSS", "Express", "PostgreSQL"],
+      "A full-stack e-commerce web application built with React, Node.js, Express, and MongoDB. It features a RESTful API for product management, dynamic cart functionality with persistent state, and image uploads via Cloudinary. The application includes a responsive, user-friendly interface with smooth navigation, and is fully deployed with the frontend on Vercel and backend on Render.",
+    tech: ["React", "CSS", "Express", "MongoDB"],
     image: "/project1.png",
     github: "https://github.com/codemande/eagle-store.git",
     live: "https://eagle-store-bv6e.vercel.app/",
