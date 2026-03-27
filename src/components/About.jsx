@@ -36,6 +36,7 @@ function About() {
               <li>Express</li>
               <li>PostgreSQL</li>
               <li>Git & GitHub</li>
+              <li>MongoDB</li>
             </ul>
           </div>
         </div>
