@@ -17,6 +17,16 @@ const projects = [
   },
   {
     id: 2,
+    title: "PayrollPro",
+    description:
+      "PayrollPro is a simple full-stack payroll management application built with React, Node.js, Express, MongoDB, and CSS. It allows users to manage employees, handle authentication, and process payroll operations efficiently through a modern web interface",
+    tech: ["React", "CSS", "Express", "MongoDB"],
+    image: "/payrollpro.png",
+    github: "https://github.com/codemande/Payroll-Pro.git",
+    live: "https://payroll-pro-lilac.vercel.app/",
+  },
+  {
+    id: 3,
     title: "QR Code Generator",
     description:
       "A QR Code Generator built with React and Express. It allows users to create QR codes for any link with adjustable size, margin, and error correction..",
@@ -26,7 +36,7 @@ const projects = [
     live: "https://test-qr-generator.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Portfolio Website",
     description:
       "A personal portfolio built to showcase my design and development projects with smooth animations and responsive design.",
